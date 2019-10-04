@@ -158,13 +158,14 @@ p {
 }
 header {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: baseline;
 	flex-wrap: wrap;
 }
 .logo {
 	width: 15%;
-	margin: 0 0 0px 40px;
+	margin: 2% 0 0px 40px;
+	justify-items: left;
 }
 header nav a {
 	text-decoration: none;
@@ -278,3 +279,68 @@ footer nav a {
 	color: white;
 	text-decoration: none;
 }
+/* This starts the about Page */
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.logo2 {
+	width: 20%;
+	margin: 2% 0 0px 40px;
+	justify-items: left;
+}
+header nav a {
+	text-decoration: none;
+	width: 80%;
+	margin: 60px 30px 30px 40px;
+	color: black;
+	font-size: 14px;
+}
+
+.topContent {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-size: 16px;
+}
+button {
+	margin-top: 20px;
+	border-radius: 10px;
+	font-size: 10px;
+}
+.middleContent {
+	width: 800px;
+	box-sizing: border-box;
+
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.cta {
+	width: 50%;
+	border-top: 1px dotted black;
+	border-bottom: 1px dotted black;
+
+	height: 350px;
+}
+
+.bottomContent {
+	border-top: 1px dotted black;
+	margin: 40px 0 0 0;
+	font-size: 16px;
+}
+h2 {
+	font-size: 16px;
+}
+p {
+	font-size: 16px;
+	width: 100%;
+}
+
+/* .Work {
+	position: absolute;
+	right: 100px;
+	top: 500px;
+} */
