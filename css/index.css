@@ -134,6 +134,7 @@ table {
 
 html,
 body {
+	width: 900px;
 	height: 100%;
 	font-family: "Roboto", sans-serif;
 }
@@ -158,15 +159,18 @@ p {
 }
 header {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: baseline;
 	flex-wrap: wrap;
 }
-.logo {
+nav {
+	margin-top: 30px;
+}
+/* .logo {
 	width: 15%;
 	margin: 2% 0 0px 40px;
 	justify-items: left;
-}
+} */
 header nav a {
 	text-decoration: none;
 	width: 80%;
@@ -280,8 +284,12 @@ footer nav a {
 	text-decoration: none;
 }
 /* This starts the about Page */
-
-header {
+/* 
+.primaryContainer {
+	width: 900px;
+	margin: auto;
+}
+.aboutHeader {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -301,6 +309,7 @@ header nav a {
 }
 
 .topContent {
+	display: flex;
 	margin-top: 5%;
 	margin-bottom: 5%;
 	font-size: 16px;
@@ -311,22 +320,36 @@ button {
 	font-size: 10px;
 }
 .middleContent {
-	width: 800px;
+	width: 47%;
 	box-sizing: border-box;
 
 	display: flex;
-	justify-content: space-evenly;
 }
 
-.cta {
-	width: 50%;
+.strategy {
+	display: flex;
+	width: 47%;
 	border-top: 1px dotted black;
 	border-bottom: 1px dotted black;
 
 	height: 350px;
 }
+.work {
+	display: flex;
+	width: 47%;
+}
+.places {
+	display: flex;
+	width: 47%;
+}
+
+.collaboration {
+	display: flex;
+	width: 47%;
+}
 
 .bottomContent {
+	display: flex;
 	border-top: 1px dotted black;
 	margin: 40px 0 0 0;
 	font-size: 16px;
@@ -337,7 +360,7 @@ h2 {
 p {
 	font-size: 16px;
 	width: 100%;
-}
+} */
 
 /* .Work {
 	position: absolute;
