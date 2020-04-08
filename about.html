@@ -1,73 +1,116 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+	<head>
+		<meta charset="utf-8" />
 
-  <title>Sprint Challenge - About</title>
+		<title>Sprint Challenge - About</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
-  <link rel="stylesheet" href="css/index.css">
+		<link
+			href="https://fonts.googleapis.com/css?family=Roboto|Rubik"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/about.css" />
+	</head>
 
-</head>
+	<body>
+		<nav>
+			<img
+				class="lambda"
+				src="https://github.com/LambdaSchool/Sprint-Challenge--User-Interface/blob/master/img/lambda-black.png?raw=true"
+				alt=""
+			/>
+			<a href="index.html">Home</a>
+			<a href="#">About</a>
+			<a href="#">Products</a>
+			<a href="#">Blog</a>
+			<a href="#">Contact</a>
+		</nav>
 
-<body>
-    <div class="container about-page">
-     
-    About
+		<img
+			class="topImage"
+			src="https://github.com/LambdaSchool/Sprint-Challenge--User-Interface/blob/master/img/jumbo-about.png?raw=true"
+			alt="image here"
+		/>
 
-    Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+		<!-- <img
+			class="testImage"
+			src="data:image/jpeg;base64,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"
+			alt="image here"
+		/> -->
 
+		<h2 class="about">About</h2>
 
-    <img src="img/about-plan.png" alt="strategy">
-    
-    Strategy
-    
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+		<p class="about-p">
+			Leverage agile frameworks to provide a robust synopsis for high level
+			overviews. Iterative approaches to corporate strategy foster collaborative
+			thinking to further the overall value proposition. Organically grow the
+			holistic world view of disruptive innovation via workplace diversity and
+			empowerment.
+		</p>
 
-    Learn More
+		<div class="mid">
+			<div class="cta1 flex">
+				<img class="bodyimage" src="img/about-plan.png" alt="strategy" />
+				<h2>Strategy</h2>
+				<p class="graph">
+					Iterative approaches to corporate strategy foster collaborative
+					thinking to further the overall value proposition.
+				</p>
 
+				<button>Learn More</button>
+			</div>
+			<div class="cta2 flex">
+				<img class="bodyimage" src="img/about-working.png" alt="strategy" />
+				<h2>How We Work</h2>
+				<p class="graph">
+					Iterative approaches to corporate strategy foster collaborative
+					thinking to further the overall value proposition.
+				</p>
 
+				<button>Learn More</button>
+			</div>
+			<div class="cta3 flex">
+				<img class="bodyimage" src="img/about-office.png" alt="strategy" />
 
-    <img src="img/about-working.png" alt="strategy">
-    
-    How We Work
-    
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+				<h2>Places We Work</h2>
+				<p class="graph">
+					Iterative approaches to corporate strategy foster collaborative
+					thinking to further the overall value proposition.
+				</p>
 
-    Learn More
+				<button>Learn More</button>
+			</div>
+			<div class="cta4 flex">
+				<img class="bodyimage" src="img/about-meeting.png" alt="strategy" />
+				<h2>Collaboration</h2>
+				<p class="graph">
+					Iterative approaches to corporate strategy foster collaborative
+					thinking to further the overall value proposition.
+				</p>
 
+				<button>Learn More</button>
+			</div>
+		</div>
 
+		<div class="bottomContent">
+			<h2>Let's Work Together</h2>
+			Leverage agile frameworks to provide a robust synopsis for high level
+			overviews. Iterative approaches to corporate strategy foster collaborative
+			thinking to further the overall value proposition. Organically grow the
+			holistic world view of disruptive innovation via workplace diversity and
+			empowerment.
+		</div>
+		<footer>
+			<nav>
+				<a href="#">Home</a>
+				<a href="#">About</a>
+				<a href="#">Products</a>
+				<a href="#">Blog</a>
+				<a href="#">Contact</a>
+			</nav>
+		</footer>
 
-    <img src="img/about-office.png" alt="strategy">
-    
-    Places We Work
-
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
-
-    Learn More
-
-    <img src="img/about-meeting.png" alt="strategy">
-    
-    Collaboration
-    
-    Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
-
-    Learn More
-
-    Let's Work Together
-
-    Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-        
-      <footer>
-        <nav>
-          <a href="index.html">Home</a>
-          <a href="#">About</a>
-          <a href="#">Products</a>
-          <a href="#">Blog</a>
-          <a href="#">Contact</a>
-        </nav>
-      </footer>
-    </div><!-- container -->        
-</body>
+		<!-- container -->
+	</body>
 </html>
